@@ -3,6 +3,7 @@ import Home from "./Home/home";
 import Atividade1 from "./Atividade1/atividade1";
 import Atividade2 from "./Atividade2/atv2";
 import Atividade3 from "./Atividade3/componentes/atv03";
+import Atividade4 from "./Atividade4/componentes/atv04"
 export default function App() {
   return (
     <BrowserRouter>
@@ -11,6 +12,7 @@ export default function App() {
         <Route path="/Atividade1" element={<Atividade1 />} />
         <Route path="/Atividade2" element={<Atividade2 />} />
         <Route path="/Atividade3" element={<Atividade3 />} />
+        <Route path="/Atividade4" element={<Atividade4 />} />
       </Routes>
     </BrowserRouter>);
 }
